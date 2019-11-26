@@ -28,7 +28,6 @@ counter app
 
 1. functional components
 1. useProps, useState
-1. useContext
 
 ## day 4
 
@@ -36,3 +35,14 @@ counter app
 
 1. class components
 1. lifecycle functions
+
+## day 5
+
+1. flux
+1. useContext
+1. context
+1. redux & mobx
+
+## day 6
+
+1. AsyncStorage
