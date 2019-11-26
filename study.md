@@ -19,8 +19,12 @@
 ## day2
 
 1. styled-components
+    - install: https://www.styled-components.com/docs/basics#installation
+    - how to: https://www.styled-components.com/docs/basics#react-native
 1. typescript
+    - https://dev-yakuza.github.io/react-native/typescript/
 1. babel-plugin-root-import
+    - https://dev-yakuza.github.io/react-native/root-import/
 
 ## day 3
 
