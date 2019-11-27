@@ -129,6 +129,7 @@ counter app
 
 1. class components
 1. lifecycle functions
+1. useEffect
 
 ## day 5
 
