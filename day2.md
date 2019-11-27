@@ -1,14 +1,14 @@
-## day2
+# day2
 
 1. styled-components
-    - install: https://www.styled-components.com/docs/basics#installation
-    - how to: https://www.styled-components.com/docs/basics#react-native
+    - install: [https://www.styled-components.com/docs/basics#installation](https://www.styled-components.com/docs/basics#installation)
+    - how to: [https://www.styled-components.com/docs/basics#react-native](https://www.styled-components.com/docs/basics#react-native)
 1. typescript
-    - https://dev-yakuza.github.io/react-native/typescript/
+    - [https://dev-yakuza.github.io/react-native/typescript/](https://dev-yakuza.github.io/react-native/typescript/)
 1. babel-plugin-root-import
-    - https://dev-yakuza.github.io/react-native/root-import/
+    - [https://dev-yakuza.github.io/react-native/root-import/](https://dev-yakuza.github.io/react-native/root-import/)
 
-### styled-components
+## styled-components
 
 install
 
@@ -17,7 +17,7 @@ npm install --save styled-components
 npm install --save-dev @types/styled-components babel-plugin-styled-components
 ```
 
-### typescript
+## typescript
 
 install
 
@@ -45,7 +45,7 @@ create tsconfig.js
 }
 ```
 
-### babel-plugin-root-import
+## babel-plugin-root-import
 
 ```bash
 npm install babel-plugin-root-import --save-dev
