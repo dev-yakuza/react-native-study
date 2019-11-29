@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Styled from 'styled-components/native';
+
+import {CountContext} from '~/Context/Count';
 
 const Container = Styled.TouchableOpacity`
     padding: 16px;
@@ -16,12 +18,12 @@ const ButtonTitle = Styled.Text`
 
 interface Props {
   text: '-' | '+';
-  onPress: () => void;
 }
 
-const Button = ({text, onPress}: Props) => {
+const Button = ({text}: Props) => {
+  const {plusCount, minusCount} = useContext<ICount>(CountContext);
   return (
-    <Container onPress={onPress}>
+    <Container onPress={() => (text === '+' ? plusCount() : minusCount())}>
       <ButtonTitle>{text}</ButtonTitle>
     </Container>
   );

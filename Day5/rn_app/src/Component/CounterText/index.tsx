@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Styled from 'styled-components/native';
+
+import {CountContext} from '~/Context/Count';
 
 const Container = Styled.View`
     flex: 1;
@@ -10,14 +12,11 @@ const TitleLabel = Styled.Text`
     font-size: 24px;
 `;
 
-interface Props {
-  text: number;
-}
-
-const CounterText = ({text}: Props) => {
+const CounterText = () => {
+  const {count} = useContext<ICount>(CountContext);
   return (
     <Container>
-      <TitleLabel>{text}</TitleLabel>
+      <TitleLabel>{count}</TitleLabel>
     </Container>
   );
 };

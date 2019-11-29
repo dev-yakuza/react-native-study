@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Styled from 'styled-components/native';
 
 import AppTitle from './AppTitle';
@@ -27,18 +27,17 @@ const Footer = Styled.View`
 `;
 
 const Counter = () => {
-  const [count, setCount] = useState<number>(0);
   return (
     <Container>
       <Header>
         <AppTitle text="this is a counter app" />
       </Header>
       <Body>
-        <CounterText text={count} />
+        <CounterText />
       </Body>
       <Footer>
-        <Button text="-" onPress={() => setCount(count - 1)} />
-        <Button text="+" onPress={() => setCount(count + 1)} />
+        <Button text="-" />
+        <Button text="+" />
       </Footer>
     </Container>
   );
