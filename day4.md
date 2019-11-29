@@ -19,4 +19,3 @@ SPA(Single Page Application)
     - useEffect
 1. homework
     - make couter app to class components
-}
