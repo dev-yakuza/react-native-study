@@ -3,6 +3,8 @@
 counter app
 
 1. developer menu(debugging)
+    - cmd + d
+    - cmd + r
 1. [javascript class](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes)
 1. React class components with All lifecycle
 1. lifecycle functions
