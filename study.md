@@ -137,10 +137,10 @@ counter app
 1. useContext
 1. context
 1. redux & mobx
-1. AsyncStorage
 
 ## day 6
 
+1. AsyncStorage
 1. Todolist
 
 ## day 7
