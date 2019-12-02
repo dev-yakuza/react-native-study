@@ -141,11 +141,11 @@ counter app
 ## day 6
 
 1. AsyncStorage
-1. Todolist
+1. react-navigation
 
 ## day 7
 
-1. react-navigation
+1. Todolist
 
 ## day 8
 
