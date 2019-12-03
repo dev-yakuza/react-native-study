@@ -14,13 +14,6 @@ interface Props {
 const CountProvider = ({children}: Props) => {
   const [count, setCount] = useState<number>(0);
 
-  const init = async () => {
-    const strCount = await AsyncStorage.getItem('count');
-    if (strCount) {
-      setCount(Number.parseInt(strCount));
-    }
-  };
-
   const setCountValue = async (count: number) => {
     await AsyncStorage.setItem('count', count.toString());
     setCount(count);
@@ -32,6 +25,13 @@ const CountProvider = ({children}: Props) => {
 
   const minusCount = () => {
     setCountValue(count - 1);
+  };
+
+  const init = async () => {
+    const count = await AsyncStorage.getItem('count');
+    if (count) {
+      setCount(Number.parseInt(count));
+    }
   };
 
   useEffect(() => {
