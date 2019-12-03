@@ -1,4 +1,5 @@
 import React, {createContext, useState, useEffect} from 'react';
+import AsyncStorage from '@react-native-community/async-storage';
 
 const CountContext = createContext<ICount>({
   count: 0,
@@ -13,13 +14,29 @@ interface Props {
 const CountProvider = ({children}: Props) => {
   const [count, setCount] = useState<number>(0);
 
+  const init = async () => {
+    const strCount = await AsyncStorage.getItem('count');
+    if (strCount) {
+      setCount(Number.parseInt(strCount));
+    }
+  };
+
+  const setCountValue = async (count: number) => {
+    await AsyncStorage.setItem('count', count.toString());
+    setCount(count);
+  };
+
   const plusCount = () => {
-    setCount(count + 1);
+    setCountValue(count + 1);
   };
 
   const minusCount = () => {
-    setCount(count - 1);
+    setCountValue(count - 1);
   };
+
+  useEffect(() => {
+    init();
+  }, []);
 
   return (
     <CountContext.Provider
