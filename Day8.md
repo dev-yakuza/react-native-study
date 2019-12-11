@@ -1,5 +1,9 @@
 # day 8 - Todolist
 
+## Result Screens
+
+![TodoList app screenshot](https://raw.githubusercontent.com/dev-yakuza/react-study/master/image/screenshot.png)
+
 ## install
 
 ### react native project
