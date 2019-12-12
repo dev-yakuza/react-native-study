@@ -171,6 +171,30 @@ npm run ios
 # npm run android
 ```
 
-## EmptyContainer
+## Todo Context
 
-- ./src/Component/EmptyContainer/index.tsx
+- src/Context/Todo/@types/index.d.ts
+- src/Context/Todo/index.tsx
+- Mock Data
+
+## Todo List Screen
+
+- src/Screen/TodoList/index.tsx
+- src/Screen/TodoList/TodoItem/index.tsx
+
+## Add Todo Screen
+
+- src/Screen/AddTodo/index.tsx
+
+## Stack Navigator
+
+- src/Navigator.tsx
+
+## Save Todo(AsyncStorage)
+
+- useEffect
+
+## Switch Navigator
+
+- Loading screen: src/Screen/Loading/index.tsx
+- check Loaded
