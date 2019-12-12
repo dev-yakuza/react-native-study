@@ -16,3 +16,11 @@
 ### FlatList
 
 - [react-native flatlist](https://facebook.github.io/react-native/docs/flatlist)
+
+### ES6
+
+```js
+const list = [1,2,3,4];
+let temp = [...list]; // 1, 2, 3, 4 (deep copy)
+temp.splice(2, 1); // return 2, temp = [1, 3, 4];
+```
