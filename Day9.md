@@ -1,4 +1,4 @@
-# day 8 - Todolist
+# day 9 - Todolist
 
 ## Result Screens
 
@@ -15,7 +15,7 @@
 
 ### FlatList
 
-- [react-native flatlist](https://facebook.github.io/react-native/docs/flatlist)
+- [react-native Flatlist](https://facebook.github.io/react-native/docs/flatlist)
 
 ### ES6
 
