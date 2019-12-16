@@ -17,3 +17,27 @@
 keyboard dismiss
 
 - [react-native Keyboard](https://facebook.github.io/react-native/docs/keyboard)
+
+## react-navigation
+
+- createStackNavigator
+
+```js
+import {createStackNavigator} from 'react-navigation-stack';
+
+import TodoList from './TodoList';
+import AddTodo from './AddTodo';
+
+const MainNavi = createStackNavigator({
+    TodoList,
+    AddTodo,
+});
+```
+
+- createAppContainer
+
+```js
+import {createAppContainer} from 'react-navigation';
+...
+export default createAppContainer(MainNavi);
+```
