@@ -41,3 +41,8 @@ import {createAppContainer} from 'react-navigation';
 ...
 export default createAppContainer(MainNavi);
 ```
+
+- navigation.navigationOptions
+- navigation.setParams
+- navigation.getParam
+- navigation.goBack
