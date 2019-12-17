@@ -4,7 +4,7 @@
 
 1. install (expo, react-native-cli)
 1. why?
-    - component driven development (https://bradfrost.com/blog/post/atomic-web-design/)
+    - component driven development [https://bradfrost.com/blog/post/atomic-web-design/](https://bradfrost.com/blog/post/atomic-web-design/)
     - virtual dom (html repaint reflow)
     - speed & sever stress (api)
 1. jsx(javascript xml)
@@ -19,12 +19,12 @@
 ## day2
 
 1. styled-components
-    - install: https://www.styled-components.com/docs/basics#installation
-    - how to: https://www.styled-components.com/docs/basics#react-native
+    - install: [https://www.styled-components.com/docs/basics#installation](https://www.styled-components.com/docs/basics#installation)
+    - how to: [https://www.styled-components.com/docs/basics#react-native](https://www.styled-components.com/docs/basics#react-native)
 1. typescript
-    - https://dev-yakuza.github.io/react-native/typescript/
+    - [https://dev-yakuza.github.io/react-native/typescript/](https://dev-yakuza.github.io/react-native/typescript/)
 1. babel-plugin-root-import
-    - https://dev-yakuza.github.io/react-native/root-import/
+    - [https://dev-yakuza.github.io/react-native/root-import/](https://dev-yakuza.github.io/react-native/root-import/)
 
 ### styled-components
 
